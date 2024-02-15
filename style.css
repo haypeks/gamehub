@@ -1,0 +1,159 @@
+:root {
+  background-color: #ecf5ff;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(27, 26, 26);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: fit-content;
+  padding: 0.5em 1rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  color: White;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right, red, rgb(33, 33, 210));
+  border: 1px solid grey;
+  box-shadow: 1px 1px 1px rgb(33, 33, 210);
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(235, 235, 235);
+  text-shadow: 0px 0px 10px rgb(200, 11, 11), 0px 0px 10px rgb(200, 11, 11),
+    0px 0px 10px rgb(200, 11, 11), 0px 0px 10px rgb(200, 11, 11);
+  animation: gameani 3s linear infinite;
+}
+
+.flex-center p {
+  font-size: 1.5rem;
+  color: rgb(235, 235, 235);
+  padding: 1rem 0;
+}
+
+h1 span {
+  text-shadow: 0px 0px 10px rgb(33, 33, 210), 0px 0px 10px rgb(33, 33, 210),
+    0px 0px 10px rgb(33, 33, 210), 0px 0px 10px rgb(33, 33, 210);
+}
+
+span {
+  font-size: 3rem;
+  position: absolute;
+}
+
+span:nth-child(1) {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+span:nth-child(2) {
+  position: absolute;
+  left: 20%;
+  bottom: 35%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+span:nth-child(3) {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+span:nth-child(4) {
+  position: absolute;
+  left: 40%;
+  bottom: 18%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+span:nth-child(5) {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+span:nth-child(6) {
+  position: absolute;
+  left: 60%;
+  bottom: 32%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+span:nth-child(7) {
+  position: absolute;
+  left: 70%;
+  top: 28%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+span:nth-child(8) {
+  position: absolute;
+  left: 80%;
+  bottom: 12%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+span:nth-child(9) {
+  position: absolute;
+  left: 90%;
+  top: 35%;
+  opacity: 10%;
+  animation: animate 30s infinite;
+}
+
+@keyframes gameani {
+  0% {
+    color: white;
+  }
+  50% {
+    color: gold;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(0) rotate(360deg);
+  }
+}
