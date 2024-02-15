@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  padding: 1rem 2rem;
+}
+
+main {
+  padding: 0 2rem;
+  color: #eee;
+}
+
+.column {
+  display: flex;
+}
+
+.left {
+  width: 52rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+.number-div {
+  display: flex;
+  height: 35vh;
+  margin: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 2rem;
+  width: 7rem;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+.between {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.guess {
+  background: none;
+  border: 1px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 7rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 0.8rem;
+  padding: 0.75rem 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+.label-highscore {
+  font-size: 0.7rem;
+}
+
+@media (min-width: 47em) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .label-score {
+    font-size: 1.6rem;
+  }
+
+  .label-highscore {
+    font-size: 1.6rem;
+  }
+
+  .message {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+  }
+
+  .number {
+    background: #eee;
+    color: #333;
+    font-size: 2.2rem;
+    width: 7rem;
+    padding: 1rem 0rem;
+    text-align: center;
+  }
+
+  .guess {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 12rem;
+  }
+}

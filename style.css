@@ -32,6 +32,7 @@ body {
 .btn {
   width: fit-content;
   padding: 0.5em 1rem;
+  cursor: pointer;
   border-radius: 1rem;
   margin: 1rem 0;
   color: White;
@@ -45,7 +46,8 @@ h1 {
   font-size: 3rem;
   color: rgb(235, 235, 235);
   text-shadow: 0px 0px 10px rgb(200, 11, 11), 0px 0px 10px rgb(200, 11, 11),
-    0px 0px 10px rgb(200, 11, 11), 0px 0px 10px rgb(200, 11, 11);
+    0px 0px 10px rgb(200, 11, 11), 0px 0px 10px rgb(33, 33, 210),
+    0px 0px 10px rgb(33, 33, 210), 0px 0px 10px rgb(33, 33, 210);
   animation: gameani 3s linear infinite;
 }
 
